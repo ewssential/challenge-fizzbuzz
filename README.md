@@ -1,1 +1,89 @@
 # challenge-fizzbuzz
+## Idea Collection
+### Easy
+- with pen and paper
+- w/o loops
+- w/ Testing
+- use a new IDE
+    - cursor
+    - vs code
+- use no IDE
+    - numpad
+- LLM
+    - as a prompt
+    - as a system prompt
+### Medium
+- principles
+    - oop
+    - functional
+    - declarative
+    - imperativ
+- reduction of complexity
+- User Interface
+- Language concepts
+    - Switch expression
+    - Functional solutions
+    - [Linq](https://www.reddit.com/r/csharp/comments/1dxnzgj/comment/lc3v29t/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+    - [dicts](https://www.reddit.com/r/csharp/comments/1dxnzgj/comment/lc3np7t/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- w/o standard constructs
+    - No Loops
+    - No If-Else
+- parallel
+    - async
+    - multi processor
+- Pattern
+    - CoR
+    - Decorator
+- Testing
+    - Mocking
+    - TDD
+- Typed
+- Check your performance
+    - https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/269772#269772
+- API in Docker
+- CD/CI
+- architectur
+    - Hexagonal architecture
+- methods
+    - Pairing
+    - Ensemble
+- refactoring
+    - https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
+### Hard
+- No Modulo Operation
+- new language
+    - Rockstar
+        - https://github.com/RockstarLang/rockstar/blob/main/examples/fizzbuzz.rock
+    - Idris
+    - pytorch
+        - https://edisongustavo.github.io/posts/fizzbuzz/
+    - Shell
+        - Powershell
+            - https://www.reddit.com/r/csharp/comments/1dxnzgj/comment/lc4x0lp/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+        - Bash
+- Micro Object
+    - https://quinngil.com/uobjects/
+- calistenics
+    - Object https://williamdurand.fr/2013/06/03/object-calisthenics/
+    - Function https://blog.ninjaferret.co.uk/2015/06/05/Introducing-Functional-Calisthenics.html 
+- Parameterization
+    - https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/#Parameterization/
+- Compilerbased
+### Collections
+- https://github.com/vihart/fiftyfizzbuzzes
+### requirement changes
+- more prime numbers
+    - 3 == fizz
+    - 5 == buzz
+    - 7 == lazz
+    - 11 == fus
+    - ...
+- small change to break all other implementations
+    - The cap jump to next char
+    - 3 == **F**izz
+    - 5 = **B**uzz
+    - 6 == f**I**zz
+    - 9 == fi**Z**z
+    - 10 == b**U**zz
+    - 12 == fiz**Z**
+    - 15 == **F**izzbu**Z**z
